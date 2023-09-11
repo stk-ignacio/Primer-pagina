@@ -1,0 +1,125 @@
+nav{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin-right: 15px;
+    margin-left: 15px;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+}
+img{
+    height: 40px;
+}
+nav a:hover {
+    color: lightblue; /* Cambia el color al pasar el cursor por encima */
+}
+  nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Agrega una transición suave para el cambio de color */
+}
+header{
+    background-color: beige;
+    display:flex;
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px){
+    body{
+        font-size: 16px;
+    }
+    header{
+        width: 100%;
+    }
+    img{
+        width: 140px;
+    }
+}
+
+
+
+
+main{
+    background-color: blanchedalmond;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-logo img {
+    width: 250px;
+    height: auto;
+}
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.footer-social h4 {
+    font-size: 1rem;
+    margin: 0;
+    padding-right: 10px;
+}
+.redes {
+    width: 250px;
+    height: auto;
+} 
+
+
+
+
+
+.juego {
+    width: 30%; 
+    margin: 10% auto 10% auto;
+    padding: 10px;
+    text-align: center;
+    height: 320px;
+}
+.juego img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s, box-shadow 0.5s;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px black;
+}
+.juego img:hover {
+    transform: scale(1.05); 
+    box-shadow: 5px 5px 10px black;
+}
+.juego h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.juego p {
+    font-size: 1rem;
+    color: #000000;
+}
